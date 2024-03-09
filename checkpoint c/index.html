@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page de Vente</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="products">
+      <div class="product" id="product1">
+        <img src="images-removebg-preview.png" width="125px" height="125px" alt="">
+        <h2>Tshirt oversize</h2>
+        <p>couleur rose XXl</p>
+        <button onclick="addToCart('product1')">Ajouter</button>
+      </div>
+      <div class="product" id="product2">
+        <img src="img1-removebg-preview (1).png" width="125px" height="125px" alt="">
+        <h2>Tshirt oversize</h2>
+        <p>Couleur noir XL</p>
+        <button onclick="addToCart('product2')">Ajouter</button>
+      </div>
+      <div class="product" id="product3">
+        <img src="img3-removebg-preview.png" width="125px" height="125px" alt="">
+        <h2>Tshirt</h2>
+        <p>Couleur rouge L</p>
+        <button onclick="addToCart('product3')">Ajouter</button>
+      </div>
+    </div>
+    <div class="cart">
+      <h2>Panier</h2>
+      <ul id="cart-items">
+        <!-- Les éléments du panier seront ajoutés ici -->
+      </ul>
+      <p>Total: <span id="cart-total">0</span> €</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
